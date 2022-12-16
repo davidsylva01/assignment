@@ -1,5 +1,3 @@
-package test;
-
 import java.time.Year;
 
 public class Car {

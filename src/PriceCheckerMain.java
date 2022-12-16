@@ -1,5 +1,3 @@
-import test.PriceChecker;
-
 import java.util.Scanner;
 
 public class PriceCheckerMain {

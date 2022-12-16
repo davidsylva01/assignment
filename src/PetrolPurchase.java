@@ -1,5 +1,3 @@
-package test;
-
 public class PetrolPurchase {
     private String location;
     private String petrolType;
