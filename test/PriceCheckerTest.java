@@ -1,25 +1,23 @@
-package test;
-
 import org.junit.jupiter.api.Test;
 
 public class PriceCheckerTest {
 
     @Test
     public void CheckerCreation(){
-        PriceChecker priceChecker = new PriceChecker();
+       PriceChecker priceChecker = new PriceChecker();
 
     }
 
         @Test
     void homePageTest(){
             PriceChecker priceChecker = new PriceChecker();
-        priceChecker.mainMenu();
+       priceChecker.mainMenu();
         }
 
         @Test
     public void bookPriceTest(){
-            PriceChecker priceChecker = new PriceChecker();
-            priceChecker.getBookPrice();
+           PriceChecker priceChecker = new PriceChecker();
+           priceChecker.getBookPrice();
         }
     @Test
     public void bagPriceTest(){
@@ -44,7 +42,7 @@ public class PriceCheckerTest {
     @Test
     void totalAmountBookTest(){
         PriceChecker priceChecker = new PriceChecker();
-        priceChecker.totalAmountBook(3);
+       priceChecker.totalAmountBook(3);
     }
 
     @Test
