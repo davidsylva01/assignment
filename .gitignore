@@ -1,2 +1,6 @@
 # Project exclude paths
 /out/
+
+/src/Baby.java
+/src/Car.java
+/src/RollDye.java
